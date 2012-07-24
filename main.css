@@ -16,6 +16,37 @@ fieldset,img,abbr,acronym {
 border:0;
 }
 
+.layout-twt #gamma,.layout-wt #beta {
+width:190px;
+}
+
+.pkg:after,#content-inner:after,#header:after,#header-inner:after,#content:after,#alpha-inner:after,#beta-inner:after,#gamma-inner:after,#footer:after {
+content:" ";
+display:block;
+visibility:hidden;
+clear:both;
+height:.1px;
+font-size:.1em;
+line-height:0;
+}
+
+.pkg,#content-inner,.comments-open label {
+display:block;
+}
+
+* html .pkg,* html #content-inner,#header-inner,#content-inner,#footer-inner,.asset-body {
+height:1%;
+}
+
+a:link,a:visited,#header a:hover,.widget-header a:hover {
+text-decoration:underline;
+}
+
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,fieldset,ul,ol,dl,.asset-header,.asset-content,.asset-body,.entry-categories,.entry-tags,.comments-header,.comment-header,.comment-content,.comment-footer,.comments-open-header,.comments-open-content,#comments-open-footer,.comments-closed,#comment-form-external-auth,.comments-open-moderated,#comment-form-name,#comment-form-email,#comment-form-url,#comment-form-remember-me,#comments-open-text,.trackbacks-header,.trackbacks-info,.trackback-content,.trackback-footer,.archive-content,.search-form-header,.search-results-header {
+margin-bottom:.75em;
+}
+
+
 ol,ul {
 list-style:none;
 }
@@ -500,35 +531,6 @@ text-decoration:none;
 position:relative;
 }
 
-.layout-twt #gamma,.layout-wt #beta {
-width:190px;
-}
-
-.pkg:after,#content-inner:after,#header:after,#header-inner:after,#content:after,#alpha-inner:after,#beta-inner:after,#gamma-inner:after,#footer:after {
-content:" ";
-display:block;
-visibility:hidden;
-clear:both;
-height:.1px;
-font-size:.1em;
-line-height:0;
-}
-
-.pkg,#content-inner,.comments-open label {
-display:block;
-}
-
-* html .pkg,* html #content-inner,#header-inner,#content-inner,#footer-inner,.asset-body {
-height:1%;
-}
-
-a:link,a:visited,#header a:hover,.widget-header a:hover {
-text-decoration:underline;
-}
-
-h1,h2,h3,h4,h5,h6,p,pre,blockquote,fieldset,ul,ol,dl,.asset-header,.asset-content,.asset-body,.entry-categories,.entry-tags,.comments-header,.comment-header,.comment-content,.comment-footer,.comments-open-header,.comments-open-content,#comments-open-footer,.comments-closed,#comment-form-external-auth,.comments-open-moderated,#comment-form-name,#comment-form-email,#comment-form-url,#comment-form-remember-me,#comments-open-text,.trackbacks-header,.trackbacks-info,.trackback-content,.trackback-footer,.archive-content,.search-form-header,.search-results-header {
-margin-bottom:.75em;
-}
 
 #comment-submit,.asset-more-link {
 font-weight:700;
