@@ -12,6 +12,12 @@ table {
 border-spacing:0;
 }
 
+img {
+    border: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
 fieldset,img,abbr,acronym {
 border:0;
 }
@@ -514,7 +520,13 @@ margin:20px 0;
 }
 
 .asset-body img {
-margin:5px;
+padding:5px;
+}
+
+.photo {
+	display: block;
+	margin: auto;
+	max-width: 100%;
 }
 
 #header-nav-inner {
