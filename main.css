@@ -17,7 +17,7 @@ border:0;
 }
 
 .layout-twt #gamma,.layout-wt #beta {
-width:190px;
+width:180px;
 }
 
 .pkg:after,#content-inner:after,#header:after,#header-inner:after,#content:after,#alpha-inner:after,#beta-inner:after,#gamma-inner:after,#footer:after {
@@ -121,17 +121,17 @@ padding-left:20px;
 }
 
 .layout-wtt #alpha {
-width:680px;
+width:700px;
 }
 
 .layout-wtt #beta {
-left:160px;
-width:160px;
+left:150px;
+width:150px;
 }
 
 .layout-wtt #gamma {
-right:160px;
-width:160px;
+right:150px;
+width:150px;
 }
 
 .layout-twt #alpha {
