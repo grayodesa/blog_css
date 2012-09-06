@@ -228,7 +228,7 @@ margin:5px 0 10px;
 }
 
 .asset,.comments,.trackbacks,.archive {
-overflow:hidden;
+overflow:visible;
 width:100%;
 }
 
