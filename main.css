@@ -89,8 +89,7 @@ font-style:normal;
 body {
 text-align:center;
 color:#333;
-font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-font-weight: 300;
+font-family:'lucida grande', tahoma, verdana, arial, sans-serif; 
 font-size:13px;
 line-height:18px;
 margin:0;
